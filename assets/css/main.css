@@ -23,6 +23,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+#strokeme
+{
+	color: white;
+	text-shadow:
+	-1.5px -1.5px 0 #000,
+	1.5px -1.5px 0 #000,
+	-1.5px 1.5px 0 #000,
+	1.5px 1.5px 0 #000;  
+}
+
 /* Software Developer */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
@@ -96,10 +106,15 @@ svg {
   .waviy_a span {
 	display:flex;
 	margin-top: 15%;
-	animation: flip 1s infinite;
+	animation: flip_a 2s infinite;
   }
   @keyframes flip {
-	0%,80% {
+	0%,50% {
+	  transform: rotateY(360deg) 
+	}
+  }
+  @keyframes flip_a {
+	0%,20% {
 	  transform: rotateY(360deg) 
 	}
   }
@@ -343,7 +358,8 @@ input, select, textarea {
 		background-image:url("images/bg.png");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
-		background-size: auto,						cover;
+		background-size:100%,						cover;
+		
 	}
 
 	html.is-preload *, html.is-preload *:before, html.is-preload *:after {
@@ -2974,7 +2990,7 @@ input, select, textarea {
 		}
 
 		.main .container {
-			padding: 3em 2.5em 8em 2.5em ;
+			padding: 3em 2.5em 4em 2.5em ;
 			background: rgba(0, 0, 0, 0.75);
 		}
 
