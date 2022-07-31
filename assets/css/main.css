@@ -38,9 +38,9 @@ footer, header, hgroup, menu, nav, section {
 
 svg {
     display: block;
-    font: 7em 'Montserrat';
-    /* width: 200px; */
-    height: 100px;
+    font: 8em 'Montserrat';
+    width: 100%;
+    height:80px;
     margin: 0 auto;
 }
 
@@ -50,7 +50,7 @@ svg {
     stroke-dasharray: 6% 29%;
     stroke-width: 8px;
     stroke-dashoffset: 0%;
-    animation: stroke-offset 5.5s infinite linear;
+    animation: stroke-offset 6s infinite linear;
 }
 
 .text-copy:nth-child(1){
@@ -96,7 +96,7 @@ svg {
   .waviy span {
 	position: relative;
 	display: inline-block;
-	font-size: 40px;
+	font-size: 35px;
 	color: inherit;
 	text-transform: uppercase;
 	animation: flip 2s infinite;
@@ -123,9 +123,9 @@ svg {
 {
    text-transform: uppercase;
   background-image: linear-gradient(
-	-225deg,
-	#fcf93d 0%,
-	#b70a8e 29%,
+	245deg,
+	#dad70d 0%,
+	#9f007a 29%,
 	#ff1361 67%,
 	#fff800 100%
   );
@@ -137,9 +137,9 @@ svg {
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 5s linear infinite;
+  animation: textclip 3s linear infinite;
   display: inline-block;
-	  font-size: 15pt;
+	  font-size: 25pt;
 }
 
 @keyframes textclip {
@@ -2572,7 +2572,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1.5em 0 0;
+			padding: 0 0.9em 0 0;
 		}
 
 			ul.icons li:last-child {
