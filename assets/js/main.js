@@ -1,26 +1,3 @@
-function animate() {
-    requestAnimationFrame(animate);
-
-    let newTime = new Date();
-    let shouldIncrementIndex = cooldown > 0;
-    let dt = (newTime - time) / 1000;
-    time = newTime;
-
-    cooldown -= dt;
-
-    if (cooldown <= 0) {
-        if (shouldIncrementIndex) {
-            textIndex++;
-        }
-
-        doMorph();
-    } else {
-        doCooldown();
-    }
-}
-
-animate();
-
 // main
 (function($) {
 

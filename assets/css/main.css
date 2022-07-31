@@ -346,7 +346,6 @@ input, select, textarea {
 		background-size: auto,						cover;
 	}
 
-
 	html.is-preload *, html.is-preload *:before, html.is-preload *:after {
 		-moz-animation: none !important;
 		-webkit-animation: none !important;
@@ -515,7 +514,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		width: 60em;
+		width: 59.96em;
 	}
 
 		.container.xsmall {
@@ -2943,10 +2942,10 @@ input, select, textarea {
 /* Main BG */
 
 	.main-bg {
-		-moz-transition: opacity 0.3s ease-out;
-		-webkit-transition: opacity 0.3s ease-out;
-		-ms-transition: opacity 0.3s ease-out;
-		transition: opacity 0.3s ease-out;
+		-moz-transition: opacity 0.5s ease-out;
+		-webkit-transition: opacity 0.5s ease-out;
+		-ms-transition: opacity 0.5s ease-out;
+		transition: opacity 0.5s ease-out;
 		background-attachment: fixed,							fixed;
 		background-position: top left,						center center;
 		background-repeat: repeat,							none;
@@ -2975,7 +2974,7 @@ input, select, textarea {
 		}
 
 		.main .container {
-			padding: 5em 2.5em 8em 2.5em ;
+			padding: 3em 2.5em 8em 2.5em ;
 			background: rgba(0, 0, 0, 0.75);
 		}
 
@@ -3057,7 +3056,7 @@ input, select, textarea {
 				}
 
 			#header header h1 {
-				font-size: 3.5em;
+				font-size: 3em;
 				line-height: 1.25em;
 				margin: 0;
 			}
