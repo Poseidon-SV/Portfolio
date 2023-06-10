@@ -55,29 +55,33 @@ svg {
 
 .text-copy:nth-child(1){
   stroke: #00FF00;
-  animation-delay: -1;
+  animation-delay: -1s;
 }
 
 .text-copy:nth-child(2){
-  stroke: #000000;
+  stroke: #008000;
   animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-  stroke: ##00FF00;
+  stroke: #000000;
   animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-  stroke: #000000;
+  stroke: #008000;
   animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-  stroke: ##00FF00;
+  stroke: #00FF00;
   animation-delay: -5s;
 }
 
+.text-copy:nth-child(6){
+	stroke: #000;
+	animation-delay: -6s;
+}
 
 @keyframes stroke-offset{
   100% {stroke-dashoffset: -35%;}
